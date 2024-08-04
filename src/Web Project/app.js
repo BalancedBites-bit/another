@@ -102,10 +102,6 @@ app.use(
     }
   }),
   app.get("/", (e, s) => s.render("index"));
-const transporter = nodemailer.createTransport({
-  service: "gmail",
-  auth: { user: "trentbolt533@gmail.com", pass: "zaajnmbghcwwsaxe" },
-});
 app.use("/main", adminRouter),
   app.use("/counseling", counselingRouter),
   app.use("/otp", otpRouter),
