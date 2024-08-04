@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "babel 'src' -d lib",
+    "build": "babel 'src/Web Project' -d lib",
     "test": "jest",
     "start": "node 'src/Web Project/app.js'",
     "postinstall": "npm install --include=optional sharp"
