@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "babel 'Web Project' -d lib",
+    "build": "babel 'src' -d lib",
     "test": "jest",
-    "start": "node 'Web Project/app.js'",
+    "start": "node 'src/Web Project/app.js'",
     "postinstall": "npm install --include=optional sharp"
   },
   "author": "Ahmed",
